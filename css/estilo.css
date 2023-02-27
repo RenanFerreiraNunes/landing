@@ -10,8 +10,10 @@ body{
 }
 
 header{
-    padding: 150px;
     background-image: url("../img/banner.jpg");
+    background-position: center center;
+    background-size: cover;
+    padding: 140px;
 }
 
 nav{
@@ -77,6 +79,7 @@ footer{
     font-family: 'Roboto', sans-serif;
     color: white;
     padding: 30px;
+    transition: all 0.3s ease;
 }
 
 .cab:hover{
@@ -89,14 +92,18 @@ footer{
     font-family: 'Roboto', sans-serif;
     margin-bottom: 30px;
     padding: 20px 20px;
-    border: 1px solid black;
+    border: 1px solid rgb(69, 69, 69);
     border-radius: 10px;
     background-color: black;
     color: white;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.519);
+    transition: all 0.3s ease;
 }
 
 .voltar:hover{
-    color: red;
+    color: rgb(0, 0, 0);
+    background-color: #454343;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.519);
 }
 
 .espacamento{
